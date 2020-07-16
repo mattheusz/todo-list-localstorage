@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#app {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    background-color: grey;
+}
+
+ul {
+    height: 250px;
+    overflow-y: auto;
+}
+
+li {
+    list-style-type: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-top: 1px solid rgba(225, 225, 255, 0.5);
+    padding: 0.5rem;
+    position: relative;
+}
+
+li a {
+    border: 1px solid black;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(112, 24, 24);
+    padding: 0.3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+input {
+    padding: 0.3rem;
+}
+button {
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+}
